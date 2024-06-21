@@ -1,5 +1,5 @@
 import Form from '@/components/Form';
-import { getSummery } from '../../../tubechapters2/api/api';
+import { getSummery } from '../../api/api';
 import Header from '@/components/Header';
 import TranslationsProvider from '@/components/TranslationsProvider';
 import initTranslations from '../i18n';
