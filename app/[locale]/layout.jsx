@@ -250,6 +250,7 @@ export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} dir={dir(locale)}>
       <head>
+        <link rel="shortcut icon" href="/favicon.ico" sizes="any" />
         <link rel="alternate" href={`/${locale}`} hrefLang={locale} />
         <title>{tMeta('title')}</title>
         <meta name="description" content={tMeta('description')} />
