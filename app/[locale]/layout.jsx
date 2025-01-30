@@ -7,6 +7,10 @@ import i18nConfig from '@/i18nConfig';
 import { dir } from 'i18next';
 import CTA from '@/components/CTA';
 import TipBox from '@/components/TipBox';
+import CollapsibleFAQ from '@/components/CollapsibleFAQ';
+import { IconPaths } from '@/components/Icons';
+import FeatureCard from '@/components/FeatureCard';
+import StepCard from '@/components/StepCard';
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -121,15 +125,20 @@ export default async function RootLayout({ children, params: { locale } }) {
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:features-main-title')}</h1>
               <p>{t('homepage:features-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
-                {featuresList.map((feature, indx) => (
-                  <div key={feature.title} className="flex flex-col gap-y-4">
-                    <h2>
-                      {indx + 1}. {feature.title}
-                    </h2>
-                    <p className="ml-8">{feature.content}</p>
-                  </div>
-                ))}
+              <div className="features-grid">
+                {featuresList.map((feature, indx) => {
+                  // Map features to icons
+                  const icons = ['automation', 'language', 'time', 'quality', 'accessibility', 'analytics'];
+                  return (
+                    <FeatureCard
+                      key={feature.title}
+                      index={indx}
+                      title={feature.title}
+                      content={feature.content}
+                      iconPath={IconPaths[icons[indx % icons.length]]}
+                    />
+                  );
+                })}
               </div>
             </div>
           </section>
@@ -148,23 +157,9 @@ export default async function RootLayout({ children, params: { locale } }) {
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:how-to-title')}</h1>
               <p>{t('homepage:how-to-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
+              <div className="steps-container">
                 {howToList.map((item, indx) => (
-                  <p key={item}>
-                    {indx + 1}. {item}
-                  </p>
-                ))}
-              </div>
-              <h1>{t('homepage:benefits-title')}</h1>
-              <p>{t('homepage:benefits-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
-                {benefitsList.map((feature, indx) => (
-                  <div key={feature.title} className="flex flex-col gap-y-4">
-                    <h2>
-                      {indx + 1}. {feature.title}
-                    </h2>
-                    <p className="ml-8">{feature.content}</p>
-                  </div>
+                  <StepCard key={item} step={item} index={indx} />
                 ))}
               </div>
             </div>
@@ -183,31 +178,33 @@ export default async function RootLayout({ children, params: { locale } }) {
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:who-should-use-title')}</h1>
               <p>{t('homepage:who-should-use-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
+              <div className="features-grid">
                 {whoShouldList.map((feature, indx) => (
-                  <div key={feature.title} className="flex flex-col gap-y-4">
-                    <h2>
-                      {indx + 1}. {feature.title}
-                    </h2>
-                    <p className="ml-8">{feature.content}</p>
-                  </div>
+                  <FeatureCard
+                    key={feature.title}
+                    index={indx}
+                    title={feature.title}
+                    content={feature.content}
+                    iconPath={IconPaths[['quality', 'analytics', 'automation', 'language'][indx % 4]]}
+                  />
                 ))}
               </div>
               <CTA 
-            text={t('homepage:cta-text-5')} 
-            buttonText={t('homepage:cta-button')}
-            className="max-w-[800px]"
-          />
+                text={t('homepage:cta-text-5')} 
+                buttonText={t('homepage:cta-button')}
+                className="max-w-[800px]"
+              />
               <h1>{t('homepage:why-ytchap-title')}</h1>
               <p>{t('homepage:why-ytchap-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
+              <div className="features-grid">
                 {whyList.map((feature, indx) => (
-                  <div key={feature.title} className="flex flex-col gap-y-4">
-                    <h2>
-                      {indx + 1}. {feature.title}
-                    </h2>
-                    <p className="ml-8">{feature.content}</p>
-                  </div>
+                  <FeatureCard
+                    key={feature.title}
+                    index={indx}
+                    title={feature.title}
+                    content={feature.content}
+                    iconPath={IconPaths[['time', 'accessibility', 'analytics', 'automation'][indx % 4]]}
+                  />
                 ))}
               </div>
             </div>
@@ -220,24 +217,25 @@ export default async function RootLayout({ children, params: { locale } }) {
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:faqs-title')}</h1>
               <p>{t('homepage:faqs-intro')}</p>
-              <div className="flex flex-col gap-y-4 ml-4">
+              <div className="flex flex-col gap-y-4">
                 {Object.entries(t('homepage:faqs', { returnObjects: true })).map(([key, faq], indx) => {
                   // Check if this is one of our special FAQs that needs a tip
                   const needsTip = key === 'what-are-timestamps3' || key === 'what-are-chapters4';
+                  const tipComponent = needsTip ? (
+                    <TipBox 
+                      title={t(`homepage:faqs.${key}.tip-title`)}
+                      content={t(`homepage:faqs.${key}.tip-content`)}
+                    />
+                  ) : null;
 
                   return (
-                    <div key={key} className="flex flex-col gap-y-4">
-                      <h2>
-                        {indx + 1}. {faq.title}
-                      </h2>
-                      <p className="ml-8">{faq.content}</p>
-                      {needsTip && (
-                        <TipBox 
-                          title={t(`homepage:faqs.${key}.tip-title`)}
-                          content={t(`homepage:faqs.${key}.tip-content`)}
-                        />
-                      )}
-                    </div>
+                    <CollapsibleFAQ
+                      key={key}
+                      index={indx}
+                      title={faq.title}
+                      content={faq.content}
+                      tipComponent={tipComponent}
+                    />
                   );
                 })}
               </div>
