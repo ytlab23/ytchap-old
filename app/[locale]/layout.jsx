@@ -5,6 +5,8 @@ import initTranslations from '../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider';
 import i18nConfig from '@/i18nConfig';
 import { dir } from 'i18next';
+import CTA from '@/components/CTA';
+import TipBox from '@/components/TipBox';
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -85,6 +87,7 @@ export default async function RootLayout({ children, params: { locale } }) {
           <div className="flex justify-center items-center w-full min-h-[80vh]">
             {children}
           </div>
+          
         </div>
 
         <div className="content-container h-full py-8 flex flex-col gap-y-8 w-full items-center bg-[#121316] mt-20">
@@ -97,12 +100,24 @@ export default async function RootLayout({ children, params: { locale } }) {
               <p>{t('homepage:about-us-intro1')}</p>
               <p>{t('homepage:about-us-intro2')}</p>
             </div>
+            {/* First CTA after main content */}
+          <CTA 
+            text={t('homepage:cta-text-1')} 
+            buttonText={t('homepage:cta-button')}
+            className="mx-auto max-w-[800px]"
+          />
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:what-is-ytchap-title')}</h1>
               <p>{t('homepage:what-is-ytchap-p1')}</p>
               <p>{t('homepage:what-is-ytchap-p2')}</p>
               <p>{t('homepage:what-is-ytchap-p3')}</p>
             </div>
+            {/* Second CTA after features */}
+          <CTA 
+            text={t('homepage:cta-text-2')} 
+            buttonText={t('homepage:cta-button')}
+            className="max-w-[800px]"
+          />
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:features-main-title')}</h1>
               <p>{t('homepage:features-intro')}</p>
@@ -118,6 +133,13 @@ export default async function RootLayout({ children, params: { locale } }) {
               </div>
             </div>
           </section>
+
+          {/* Third CTA after how-it-works */}
+          <CTA 
+            text={t('homepage:cta-text-3')} 
+            buttonText={t('homepage:cta-button')}
+            className="max-w-[800px]"
+          />
 
           <section
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
@@ -147,6 +169,12 @@ export default async function RootLayout({ children, params: { locale } }) {
               </div>
             </div>
           </section>
+          <CTA 
+            text={t('homepage:cta-text-4')} 
+            buttonText={t('homepage:cta-button')}
+            className="max-w-[800px]"
+          />
+          
 
           <section
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
@@ -165,6 +193,11 @@ export default async function RootLayout({ children, params: { locale } }) {
                   </div>
                 ))}
               </div>
+              <CTA 
+            text={t('homepage:cta-text-5')} 
+            buttonText={t('homepage:cta-button')}
+            className="max-w-[800px]"
+          />
               <h1>{t('homepage:why-ytchap-title')}</h1>
               <p>{t('homepage:why-ytchap-intro')}</p>
               <div className="flex flex-col gap-y-4 ml-4">
@@ -179,7 +212,7 @@ export default async function RootLayout({ children, params: { locale } }) {
               </div>
             </div>
           </section>
-
+          
           <section
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
             id="faqs"
@@ -188,17 +221,34 @@ export default async function RootLayout({ children, params: { locale } }) {
               <h1>{t('homepage:faqs-title')}</h1>
               <p>{t('homepage:faqs-intro')}</p>
               <div className="flex flex-col gap-y-4 ml-4">
-                {faqsList.map((feature, indx) => (
-                  <div key={feature.title} className="flex flex-col gap-y-4">
-                    <h2>
-                      {indx + 1}. {feature.title}
-                    </h2>
-                    <p className="ml-8">{feature.content}</p>
-                  </div>
-                ))}
+                {Object.entries(t('homepage:faqs', { returnObjects: true })).map(([key, faq], indx) => {
+                  // Check if this is one of our special FAQs that needs a tip
+                  const needsTip = key === 'what-are-timestamps3' || key === 'what-are-chapters4';
+
+                  return (
+                    <div key={key} className="flex flex-col gap-y-4">
+                      <h2>
+                        {indx + 1}. {faq.title}
+                      </h2>
+                      <p className="ml-8">{faq.content}</p>
+                      {needsTip && (
+                        <TipBox 
+                          title={t(`homepage:faqs.${key}.tip-title`)}
+                          content={t(`homepage:faqs.${key}.tip-content`)}
+                        />
+                      )}
+                    </div>
+                  );
+                })}
               </div>
               <h1>{t('homepage:final-words-title')}</h1>
               <p>{t('homepage:final-words-content')}</p>
+              {/* Final CTA */}
+              <CTA 
+                text={t('homepage:cta-text')} 
+                buttonText={t('homepage:cta-button')}
+                className="mt-12 mb-8"
+              />
             </div>
           </section>
         </div>
