@@ -1,1 +1,99 @@
-{"header-title":"GENERADOR DE CAPÍTULOS DE YOUTUBE AI"}
+{
+  "header-title": "GENERADOR DE CAPÍTULOS DE YOUTUBE AI",
+  "about-us-title": "Sobre nosotros",
+  "about-us-intro1": "Como creador de contenido, sabes que es importante mantener interesada a tu audiencia y facilitarles la visualización de las partes de tus videos de YouTube que más les atraen. YTChap.com hace que este proceso sea simple.",
+  "about-us-intro2": "Sí, YTChap hace que sea muy sencillo agregar capítulos a los cuadros de información de tus videos en Youtube, comentarios fijos o publicaciones en redes sociales. Veamos qué oportunidades ofrece YTChap y cómo puede ayudarte a obtener mejores resultados.",
+  "what-is-ytchap-title": "¿Qué es YTChap?",
+  "what-is-ytchap-p1": "YTChap es una plataforma en línea exclusiva que mejora las capacidades de navegación y visualización de videos, especialmente los de sitios como YouTube. Los creadores pueden dividir sus videos en capítulos usando esta herramienta, otorgando así a los espectadores un acceso relativamente más fácil a áreas particulares del contenido según sus preferencias. Y lo mejor es que puedes usarlo completamente gratis.",
+  "what-is-ytchap-p2": "Las características básicas de YTChap.com incluyen una interfaz limpia donde los creadores de YouTube pueden crear capítulos y marcas de tiempo para sus videos con facilidad. Estos están acompañados por marcas de tiempo vinculadas a cada capítulo, permitiendo a los espectadores hacer clic rápidamente y saltar directamente a la porción deseada.",
+  "what-is-ytchap-p3": "Esta función es especialmente útil para videos más largos o aquellos que cubren una amplia gama de temas, donde los espectadores pueden querer saltar a contenido específico. Al estructurar el contenido en capítulos, los creadores de contenido como tú pueden aumentar el compromiso de la audiencia, el tiempo de visualización y la experiencia general del usuario. En resumen, ¡impulsar su SEO y vistas de YouTube!",
+  "features-main-title": "9 Características Principales De YTChap",
+  "features-intro": "YTChap.com viene con muchas características únicas para destacar entre los competidores. Aquí están algunas de ellas:",
+  "features": {
+    "easy-chapter-creation": {
+      "title": "Creación fácil de capítulos",
+      "content": "YTChap tiene una interfaz fácil de usar que te permite crear rápidamente capítulos (con marcas de tiempo) para tus videos. Con unos pocos clics, puedes dividir tus videos en secciones fácilmente digeribles."
+    },
+    "free-to-use": {
+      "title": "Gratis para usar",
+      "content": "YTChap.com es totalmente gratuito. Significa que cualquiera puede usarlo para crear capítulos sin ningún problema."
+    },
+    "customizable-chapter-titles": {
+      "title": "Títulos de capítulos personalizables",
+      "content": "Personaliza los títulos de tus capítulos para reflejar con precisión el contenido que representan. Esta personalización garantiza que tu audiencia entienda exactamente qué esperar de cada parte de tu video."
+    },
+    "timestamp-integration": {
+      "title": "Integración de marcas de tiempo",
+      "content": "Incorpora fácilmente marcas de tiempo en tus capítulos. Esta función permite a los espectadores moverse directamente a la sección del video que les interesa, mejorando así la experiencia del usuario y el compromiso."
+    },
+    "export-options": {
+      "title": "Opciones de exportación",
+      "content": "Exporta tus datos de capítulos en varios formatos para una fácil integración en descripciones de YouTube, comentarios fijos y compartir en redes sociales. Puedes copiar todos los capítulos generados con un solo clic."
+    },
+    "multilingual-support": {
+      "title": "Soporte multilingüe",
+      "content": "Crea capítulos en múltiples idiomas como inglés, español, francés, italiano, holandés, portugués, etc. para llegar a una audiencia mundial. YTChap admite una variedad de idiomas, garantizando que ningún espectador se quede fuera."
+    }
+  },
+  "how-to-title": "¿Cómo Agregar Capítulos a un Video de YouTube Usando YTChap?",
+  "how-to-intro": "Como se mencionó anteriormente, puedes agregar capítulos a videos de YouTube usando YTChap de manera simple. Todo lo que necesitas tener es el enlace al video para el que deseas crear los capítulos y marcas de tiempo. Mira los pasos:",
+  "how-to-steps": [
+    "Visita el sitio web YTChap.com.",
+    "Coloca el enlace del video para el que deseas crear capítulos. YTChap admite una variedad de formatos de video para tu conveniencia.",
+    "Elige el idioma del capítulo de la lista. Actualmente, la herramienta ofrece seis opciones: inglés, español, francés, italiano, alemán, árabe y portugués.",
+    "Haz clic en 'Generar Subtítulos' y deja que nuestra IA trabaje.",
+    "Si lo deseas, personaliza los títulos de los capítulos y verifica la segmentación.",
+    "Exporta los capítulos en tu formato preferido, como copiar el contenido con un clic.",
+    "Integra los capítulos en la descripción de tu video de YouTube o fíjalos como comentario."
+  ],
+  "benefits-title": "11 Beneficios de Crear Capítulos de YouTube con YTChap",
+  "benefits-intro": "Podrías estar pensando por qué pasar por estos pasos adicionales, cuando simplemente podemos subir un video a YouTube, sin agregar capítulos y marcas de tiempo. Entonces, ¿vale la pena? Una herramienta como YTChap.com es útil debido a la amplia gama de beneficios que proporciona. Aquí hay algunos de ellos:",
+  "benefits": {
+    "viewer-engagement": {
+      "title": "Mejor compromiso del espectador",
+      "content": "Los capítulos mejoran el compromiso de tus videos, facilitando que los espectadores encuentren y vayan a lo que más les interesa. Esta participación mejorada puede resultar en tiempos de visualización más largos y mayor retención de audiencia."
+    },
+    "user-experience": {
+      "title": "Experiencia de usuario mejorada",
+      "content": "Al estructurar tu video claramente, puedes mejorar toda la experiencia del usuario. Los espectadores pueden navegar fácilmente por tu contenido, lo cual es muy útil para videos largos de YouTube."
+    }
+  },
+  "who-should-use-title": "¿Quién Debería Usar YTChap?",
+  "who-should-use-intro": "YTChap.com no es una herramienta solo para creadores de contenido creativos. Cualquiera que esté involucrado en compartir ideas a través de videos puede usar nuestra herramienta. Aquí hay algunos sectores específicos que pueden encontrar nuestra herramienta más útil:",
+  "who-should-use": {
+    "youtube-creators": {
+      "title": "Creadores de YouTube",
+      "content": "No importa si eres un vlogger, gamer o educador, YTChap puede ayudarte a aumentar el compromiso y la retención de espectadores haciendo que tus videos sean más fáciles de navegar."
+    },
+    "educational-channels": {
+      "title": "Canales educativos",
+      "content": "YTChap es una manera fácil para que los estudiantes y espectadores encuentren y vuelvan a puntos específicos en sus tutoriales, seminarios o videos instructivos de YouTube."
+    }
+  },
+  "why-ytchap-title": "Entonces, ¿Por qué usar YTChap?",
+  "why-ytchap-intro": "YTChap.com emerge como la principal herramienta para crear y agregar capítulos a videos debido a muchas razones. Veamos qué distingue a YTChap al hacer Capítulos, y por qué destaca en el mundo de las herramientas de mejora de video.",
+  "why-ytchap": {
+    "made-for-youtube": {
+      "title": "Hecho para creadores de YouTube",
+      "content": "YTChap está diseñado para creadores de YouTube. Lo hace proporcionando capítulos y marcas de tiempo de YouTube que están listos para el formato de YouTube."
+    },
+    "viewer-control": {
+      "title": "Permite el control del espectador",
+      "content": "YTChap.com es único en que da a los espectadores control sobre su experiencia de visualización, a diferencia de los formatos de video lineales típicos. La capacidad de navegar directamente a áreas clave permite a los espectadores interactuar más profundamente con la información y encontrar valor de manera más eficiente."
+    }
+  },
+  "faqs-title": "Preguntas Frecuentes (FAQs)",
+  "faqs-intro": "Aquí están algunas de las preguntas más comunes que recibimos sobre YTChap y los capítulos de YouTube en general:",
+  "faqs": {
+    "what-are-chapters": {
+      "title": "¿Qué son los capítulos de YouTube?",
+      "content": "Los capítulos de YouTube son una función que permite a los creadores de contenido dividir sus videos en partes separadas a través de marcas de tiempo individuales. Como resultado, los espectadores pueden saltar directamente a las partes que les interesan sin perder tiempo. Se genera automáticamente según las marcas de tiempo en la descripción."
+    },
+    "what-are-timestamps": {
+      "title": "¿Qué son las marcas de tiempo de YouTube?",
+      "content": "Las marcas de tiempo de YouTube son una tabla de contenido para tu video de YouTube para facilitar que los usuarios encuentren partes específicas del video. Se ve principalmente en videos más largos para mejorar la experiencia del usuario. Además de la IA de YouTube automáticamente, los creadores de contenido pueden agregar marcas de tiempo manualmente. Las marcas de tiempo de YouTube siguen el formato minuto:segundo, es decir, 00:25 o 1:44."
+    }
+  },
+  "final-words-title": "Palabras Finales",
+  "final-words-content": "Hoy en día, subir algunos videos normales a YouTube podría no ser suficiente para captar la atención y ganar alcance. Necesitas probar todas las formas de mejorar la experiencia del usuario. Y YTChap es una herramienta útil para eso. Con nuestra herramienta, puedes clasificar tu video en diferentes segmentos para una navegación fácil en tu idioma preferido en segundos. Y, además, gratis. ¡Comienza con YTChap.com hoy y genera capítulos y marcas de tiempo para tu video, gratis!"
+}
