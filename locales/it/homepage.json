@@ -189,13 +189,19 @@
     "title": "Come aggiungere capitoli ai video di YouTube?",
     "content": "Prima di tutto, accedi al tuo account YouTube. Poi, vai nella sezione descrizione del video a cui vuoi aggiungere i capitoli, e scrivi o incolla i tuoi capitoli (con i timestamp). Assicurati che il primo timestamp inizi a 00:00 e che la descrizione contenga almeno 3 timestamp. Buone notizie, i capitoli generati da YTChap vengono già forniti in questo formato."
   },
-  "do-chapters-increase-views": {
+  "what-are-timestamps3": {
     "title": "I capitoli di YouTube aumentano le visualizzazioni?",
-    "content": "Sì, assolutamente. Ecco alcuni modi in cui i capitoli di YouTube possono aiutarti ad aumentare il numero di visualizzazioni: Aiutano a migliorare il posizionamento nei motori di ricerca di un video fornendo contesto e parole chiave aggiuntive, forniscono una struttura chiara per il video, che può migliorare l'esperienza dell'utente e aumentare le possibilità che condividano il tuo contenuto, i creatori possono attrarre più traffico dai motori di ricerca ottimizzando le parole chiave rilevanti nella sezione dei capitoli di YouTube."
+    "content": "Sì, assolutamente. Ecco alcuni modi in cui i capitoli di YouTube possono aiutarti ad aumentare il numero di visualizzazioni: Aiutano a migliorare il posizionamento nei motori di ricerca di un video fornendo contesto e parole chiave aggiuntive, forniscono una struttura chiara per il video, che può migliorare l'esperienza dell'utente e aumentare le possibilità che condividano il tuo contenuto, i creatori possono attrarre più traffico dai motori di ricerca ottimizzando le parole chiave rilevanti nella sezione dei capitoli di YouTube.",
+    "tip-title": "Suggerimento Extra",
+  "tip-content": "Per aumentare ulteriormente le visualizzazioni su YouTube, considera di sfruttare la pubblicità organica tramite piattaforme come YouTube Ads o LenosTube. Inoltre, migliora l'appeal del tuo video creando miniature accattivanti utilizzando strumenti di design user-friendly come Canva. Infine, usare uno strumento come IFTTT ti permette di condividere automaticamente i tuoi video su YouTube su diverse piattaforme social."
+
   },
-  "how-does-ytchap-help-seo": {
+  "what-are-chapters4": {
     "title": "Come aiuta YTChap.com il SEO del mio video?",
-    "content": "YTChap migliora il SEO aggiungendo più informazioni. Ogni titolo del capitolo funge da mini-tag, aiutando l'algoritmo di YouTube a comprendere meglio il contenuto del tuo video, potenzialmente aumentandone la scopribilità."
+    "content": "YTChap migliora il SEO aggiungendo più informazioni. Ogni titolo del capitolo funge da mini-tag, aiutando l'algoritmo di YouTube a comprendere meglio il contenuto del tuo video, potenzialmente aumentandone la scopribilità.",
+    "tip-title": "Suggerimento Extra",
+  "tip-content": "Per migliorare ulteriormente la SEO su YouTube, usa strumenti SEO professionali come VidIQ, AnswerThePublic o TubePilot per trovare parole chiave rilevanti e ottimizzare descrizioni, titoli e tag esistenti."
+
   },
   "is-ytchap-free": {
     "title": "YTChap.com è gratuito?",

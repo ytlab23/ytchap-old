@@ -137,8 +137,35 @@
     "title": "Podcasters e Entrevistadores",
     "content": "Podcasts e vídeos de entrevistas podem dividir diferentes assuntos com capítulos que tornam simples para os espectadores irem diretamente para as áreas que acham mais interessantes."
   }
-}
-,
+},
+"why-ytchap-title": "Então, por que usar o YTChap?",
+  "why-ytchap-intro": "YTChap.com se destaca como a principal ferramenta para criar e adicionar capítulos a vídeos por diversos motivos. Vamos ver o que diferencia o YTChap na criação de capítulos e por que ele se destaca no mundo das ferramentas de melhoria de vídeo.",
+  "why-ytchap": {
+    "made-for-youtube": {
+      "title": "Feito para Criadores do YouTube",
+      "content": "YTChap é projetado especialmente para criadores do YouTube. Ele faz isso fornecendo capítulos e carimbos de tempo no formato adequado para o YouTube."
+    },
+    "viewer-control": {
+      "title": "Permite Controle ao Espectador",
+      "content": "YTChap.com é único por permitir que os espectadores controlem sua experiência de visualização, ao contrário dos formatos de vídeo lineares típicos. A capacidade de ir diretamente para áreas-chave permite que os espectadores interajam mais profundamente com as informações e encontrem valor de forma mais eficiente."
+    },
+    "Improves Discoverability": {
+      "title": "Melhora a Descoberta",
+      "content": "Ao usar os capítulos gerados pelo YTChap, você fornece aos algoritmos do YouTube metadados adicionais, e os vídeos podem ser recomendados com mais frequência e expostos a um público mais amplo. Não apenas no YouTube, mas também em motores de busca como o Google."
+    },
+    "Multifaceted Integration": {
+      "title": "Integração Multifacetada",
+      "content": "Isso permite que os usuários do YTChap integrem capítulos em vários aspectos de sua estratégia de conteúdo, e não apenas na descrição do vídeo. Você pode usar os capítulos gerados como comentários fixados e postagens em redes sociais. As informações dos capítulos também podem ser usadas para gerar shorts no YouTube ou outros tipos de conteúdo em formato curto."
+    },
+    "International Reach": {
+      "title": "Alcance Internacional",
+      "content": "O YTChap suporta muitos idiomas, permitindo que criadores do YouTube se conectem com diferentes públicos globais."
+    },
+    "Regular Updates": {
+      "title": "Atualizações Regulares",
+      "content": "YTChap não é um produto finalizado. À medida que o YouTube evolui e com o feedback dos usuários, trabalhamos regularmente para melhorar a precisão e a qualidade dos capítulos. Atualizações são lançadas regularmente."
+    }
+  },
   "faqs-title": "Perguntas Frequentes (FAQs)",
 "faqs-intro": "YTChap.com não é uma ferramenta apenas para criadores de conteúdo criativo. Qualquer pessoa envolvida no compartilhamento de ideias por meio de vídeos pode usar nossa ferramenta. Aqui estão alguns grupos específicos que podem achar nossa ferramenta mais útil:",
 "faqs": {
@@ -162,23 +189,36 @@
     "title": "Como adicionar capítulos a vídeos do YouTube?",
     "content": "Primeiramente, faça login na sua conta do YouTube. Depois, vá até a seção de descrição do vídeo ao qual você deseja adicionar capítulos e escreva ou cole os seus capítulos (junto com os carimbos de data/hora). Certifique-se de que o primeiro carimbo de data/hora comece em 00:00 e que a descrição tenha pelo menos 3 carimbos de data/hora. Boa notícia: os capítulos gerados pelo YTChap já vêm nesse formato."
   },
-  "what-are-timestamps2": {
-    "title": "Os capítulos no YouTube aumentam as visualizações?",
-    "content": "Sim, absolutamente. Aqui estão algumas maneiras de como os capítulos no YouTube podem ajudar a aumentar o número de visualizações:\nEles ajudam a melhorar o posicionamento nos motores de busca de um vídeo, fornecendo contexto adicional e palavras-chave.\nProporcionam uma estrutura clara para o vídeo, o que pode melhorar a experiência do usuário e incentivar o compartilhamento do seu conteúdo.\nCriadores podem atrair mais tráfego de motores de busca ao ajustar as palavras-chave relevantes para a seção de capítulos no YouTube.\nDica Extra: Para aumentar ainda mais suas visualizações no YouTube, considere utilizar publicidade orgânica através de plataformas como YouTube Ads ou LenosTube. Além disso, melhore o apelo do seu vídeo criando miniaturas atraentes com ferramentas de design intuitivas como o Canva. Por fim, usar uma ferramenta como o IFTTT permite compartilhar automaticamente seus vídeos do YouTube em diversas plataformas de mídia social."
-  },
-  "what-are-chapters3": {
-    "title": "Como o YTChap.com ajuda no SEO do meu vídeo?",
-    "content": "O YTChap melhora o SEO adicionando mais informações. Cada título de capítulo serve como uma mini-tag, ajudando o algoritmo do YouTube a entender melhor o conteúdo do seu vídeo, o que pode aumentar sua descobribilidade.\nDica Extra: Para aumentar ainda mais o SEO do seu YouTube, use ferramentas profissionais de SEO como VidIQ, AnswerThePublic ou TubePilot para encontrar palavras-chave relevantes e otimizar as descrições, títulos e tags existentes."
-  },
   "what-are-timestamps3": {
+    "title": "Os capítulos no YouTube aumentam as visualizações?",
+    "content": "Sim, absolutamente. Aqui estão algumas maneiras de como os capítulos no YouTube podem ajudar a aumentar o número de visualizações:\nEles ajudam a melhorar o posicionamento nos motores de busca de um vídeo, fornecendo contexto adicional e palavras-chave.\nProporcionam uma estrutura clara para o vídeo, o que pode melhorar a experiência do usuário e incentivar o compartilhamento do seu conteúdo.\nCriadores podem atrair mais tráfego de motores de busca ao ajustar as palavras-chave relevantes para a seção de capítulos no YouTube.",
+    "tip-title": "Dica Extra",
+  "tip-content": "Para aumentar ainda mais suas visualizações no YouTube, considere utilizar publicidade orgânica através de plataformas como YouTube Ads ou LenosTube. Além disso, melhore o apelo do seu vídeo criando miniaturas atraentes com ferramentas de design intuitivas como o Canva. Por fim, usar uma ferramenta como o IFTTT permite compartilhar automaticamente seus vídeos do YouTube em diversas plataformas de mídia social."
+
+  },
+  "what-are-chapters4": {
+    "title": "Como o YTChap.com ajuda no SEO do meu vídeo?",
+    "content": "O YTChap melhora o SEO adicionando mais informações. Cada título de capítulo serve como uma mini-tag, ajudando o algoritmo do YouTube a entender melhor o conteúdo do seu vídeo, o que pode aumentar sua descobribilidade.",
+    "tip-title": "Dica Extra",
+  "tip-content": "Para aumentar ainda mais o SEO do seu YouTube, use ferramentas profissionais de SEO como VidIQ, AnswerThePublic ou TubePilot para encontrar palavras-chave relevantes e otimizar as descrições, títulos e tags existentes."
+
+  },
+  "what-are-timestamps7": {
     "title": "O YTChap.com é gratuito?",
     "content": "Sim, é. O YTChap acredita em oferecer oportunidades iguais para todos os criadores, por isso todas as suas funcionalidades estão disponíveis completamente de graça. Não há taxas escondidas ou planos pagos."
   },
-  "what-are-chapters4": {
+  "what-are-chapters7": {
     "title": "Posso alterar os capítulos depois de publicar meu vídeo?",
     "content": "Sim, você pode atualizar os capítulos a qualquer momento. Basta alterar a descrição ou os comentários do seu vídeo para incluir os novos carimbos de data/hora e títulos, e o YouTube atualizará os capítulos automaticamente."
   }
 },
 "final-words-title": "Conclusão",
-"final-words-content": "Hoje em dia, postar vídeos comuns no YouTube pode não ser suficiente para captar atenção e alcançar um bom público. Você precisa tentar de tudo para melhorar a experiência do usuário. E o YTChap é uma ferramenta útil para isso. Com nossa ferramenta, você pode classificar seu vídeo em diferentes segmentos para facilitar a navegação no seu idioma preferido em questão de segundos. E tudo isso, de graça. Comece a usar o YTChap.com hoje mesmo e gere capítulos e timestamps para o seu vídeo, gratuitamente!"
+"final-words-content": "Hoje em dia, postar vídeos comuns no YouTube pode não ser suficiente para captar atenção e alcançar um bom público. Você precisa tentar de tudo para melhorar a experiência do usuário. E o YTChap é uma ferramenta útil para isso. Com nossa ferramenta, você pode classificar seu vídeo em diferentes segmentos para facilitar a navegação no seu idioma preferido em questão de segundos. E tudo isso, de graça. Comece a usar o YTChap.com hoje mesmo e gere capítulos e timestamps para o seu vídeo, gratuitamente!",
+"cta-text": "Gere capítulos e timestamps para o seu vídeo do YouTube com o YTChap!",
+  "cta-text-1": "Crie Capítulos Para Seu Vídeo no YouTube Gratuitamente",
+  "cta-text-2": "Crie Capítulos Com YTChap",
+  "cta-text-3": "Adicione Capítulos e Marcações de Tempo ao Seu Vídeo do YouTube com YTChap!",
+  "cta-text-4": "Torne Seu Vídeo Melhor Com YTChap!",
+  "cta-text-5": "Adicione Capítulos e Marcas de Tempo no YouTube com o YTChap!",
+  "cta-button": "experimentar agora"
 }

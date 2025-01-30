@@ -189,34 +189,6 @@
     "title": "Comment ajouter des chapitres aux vidéos YouTube ?",
     "content": "Tout d'abord, connectez-vous à votre compte YouTube. Ensuite, allez dans la section description de la vidéo à laquelle vous souhaitez ajouter des chapitres, puis écrivez ou collez vos chapitres (avec les repères horaires). Assurez-vous que le premier repère horaire commence à 00:00 et que la description comporte au moins 3 repères horaires. Bonne nouvelle, les chapitres générés par YTChap sont déjà au format requis."
   },
-  "do-chapters-increase-views": {
-    "title": "Les chapitres YouTube augmentent-ils les vues ?",
-    "content": "Oui, absolument. Voici quelques façons dont les chapitres YouTube peuvent vous aider à augmenter le nombre de vues : Ils aident à améliorer le positionnement d'une vidéo dans les moteurs de recherche en fournissant un contexte et des mots-clés supplémentaires, fournissent une structure claire pour la vidéo, ce qui peut améliorer l'expérience utilisateur et les inciter à partager votre contenu, les créateurs peuvent attirer plus de trafic des moteurs de recherche en affinant les mots-clés pertinents dans la section des chapitres YouTube."
-  },
-  "how-does-ytchap-help-seo": {
-    "title": "Comment YTChap.com aide-t-il le référencement de ma vidéo ?",
-    "content": "YTChap améliore le référencement en ajoutant plus d'informations. Chaque titre de chapitre sert de mini-tag, aidant l'algorithme de YouTube à mieux comprendre le contenu de votre vidéo, augmentant potentiellement sa découvrabilité."
-  },
-  "is-ytchap-free": {
-    "title": "YTChap.com est-il gratuit ?",
-    "content": "Oui, il l'est. YTChap croit en l'égalité des chances pour tous les créateurs, c'est pourquoi toutes ses fonctionnalités sont entièrement gratuites. Il n'y a pas de frais cachés ni de niveaux premium."
-  },
-  "can-i-change-chapters": {
-    "title": "Puis-je changer les chapitres après avoir publié ma vidéo ?",
-    "content": "Oui, vous pouvez mettre à jour les chapitres à tout moment. Il vous suffit de modifier la description de votre vidéo ou les commentaires pour inclure les nouveaux horodatages et titres, et YouTube mettra à jour les chapitres en conséquence."
-  },
-  "what-are-timestamps2": {
-    "title": "Que sont les horodatages ?",
-    "content": "Les horodatages sont des points spécifiques dans une vidéo qui marquent le début de différentes sections ou sujets. Ils aident les spectateurs à : Naviguer directement vers des parties spécifiques de votre contenu, Comprendre la structure de la vidéo avant de la regarder, Gagner du temps en passant aux sections pertinentes, Améliorer la rétention et l'engagement des spectateurs, Rendre votre contenu plus accessible et convivial",
-    "tip-title": "Conseil Pro : Boost d'Engagement",
-    "tip-content": "Les vidéos avec des horodatages bien organisés voient généralement une augmentation de 20 à 30% de la rétention des spectateurs. Lorsque les spectateurs peuvent facilement trouver ce qu'ils cherchent, ils sont plus susceptibles de regarder plus longtemps et de revenir à votre contenu."
-  },
-  "what-are-chapters3": {
-    "title": "Que sont les chapitres ?",
-    "content": "Les chapitres sont des segments de votre vidéo qui regroupent du contenu connexe. Ils fournissent : Une organisation claire du contenu, Une navigation facile entre les sections, Une meilleure expérience spectateur, Une meilleure découvrabilité du contenu, Une présentation professionnelle",
-    "tip-title": "Conseil Pro : Avantages SEO",
-    "tip-content": "Les chapitres YouTube peuvent considérablement améliorer le référencement de votre vidéo. Chaque titre de chapitre agit comme un signal de mot-clé pour l'algorithme de YouTube, aidant potentiellement votre vidéo à apparaître dans plus de résultats de recherche et de vidéos suggérées."
-  },
   "what-are-timestamps3": {
     "title": "Les chapitres YouTube augmentent-ils les vues ?",
     "content": "Oui, absolument. Voici comment les chapitres YouTube peuvent vous aider à augmenter le nombre de vues : Ils aident à améliorer le positionnement d'une vidéo dans les moteurs de recherche en fournissant un contexte et des mots-clés supplémentaires, fournissent une structure claire pour la vidéo, ce qui peut améliorer l'expérience utilisateur et les inciter à partager votre contenu, les créateurs peuvent attirer plus de trafic des moteurs de recherche en affinant les mots-clés pertinents dans la section des chapitres YouTube.",

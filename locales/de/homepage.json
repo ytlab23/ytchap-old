@@ -189,14 +189,18 @@
     "title": "Wie füge ich Kapitel zu YouTube-Videos hinzu?",
     "content": "Melde dich zuerst in deinem YouTube-Konto an. Gehe dann zum Beschreibungsteil des Videos, dem du Kapitel hinzufügen möchtest, und schreibe oder füge deine Kapitel (mit Zeitstempeln) ein. Achte darauf, dass der erste Zeitstempel bei 00:00 beginnt und die Beschreibung mindestens 3 Zeitstempel enthält. Gute Nachricht: Die von YTChap generierten Kapitel kommen bereits in diesem Format."
   },
-  "do-chapters-increase-views": {
+  "what-are-timestamps3": {
     "title": "Erhöhen YouTube-Kapitel die Aufrufe?",
-    "content": "Ja, absolut. Hier sind einige Möglichkeiten, wie YouTube-Kapitel dir helfen können, die Aufrufe zu steigern:\nEs hilft, die Positionierung des Videos in Suchmaschinen zu verbessern, indem zusätzliche Kontexte und Schlüsselwörter bereitgestellt werden.\nBietet eine klare Struktur für das Video, was die Benutzererfahrung verbessert und sie dazu anregen kann, deinen Inhalt zu teilen.\nErsteller können mehr Suchmaschinen-Traffic gewinnen, indem sie relevante Schlüsselwörter in der YouTube-Kapitel-Sektion feinabstimmen.\nExtra-Tipp: Um deine YouTube-Aufrufe weiter zu steigern, solltest du organische Werbung über Plattformen wie YouTube Ads oder LenosTube in Betracht ziehen. Außerdem kannst du die Anziehungskraft deines Videos steigern, indem du auffällige Thumbnails mit benutzerfreundlichen Design-Tools wie Canva erstellst. Schließlich ermöglicht dir ein Tool wie IFTTT, deine YouTube-Videos automatisch auf verschiedenen sozialen Medien zu teilen."
-  },
-  "how-does-ytchap-help-seo": {
+    "content": "Ja, absolut. Hier sind einige Möglichkeiten, wie YouTube-Kapitel dir helfen können, die Aufrufe zu steigern:\nEs hilft, die Positionierung des Videos in Suchmaschinen zu verbessern, indem zusätzliche Kontexte und Schlüsselwörter bereitgestellt werden.\nBietet eine klare Struktur für das Video, was die Benutzererfahrung verbessert und sie dazu anregen kann, deinen Inhalt zu teilen.\nErsteller können mehr Suchmaschinen-Traffic gewinnen, indem sie relevante Schlüsselwörter in der YouTube-Kapitel-Sektion feinabstimmen."
+  ,"tip-title": "Extra-Tipp",
+  "tip-content": "Um deine YouTube-Aufrufe weiter zu steigern, solltest du organische Werbung über Plattformen wie YouTube Ads oder LenosTube in Betracht ziehen. Außerdem kannst du die Anziehungskraft deines Videos steigern, indem du auffällige Thumbnails mit benutzerfreundlichen Design-Tools wie Canva erstellst. Schließlich ermöglicht dir ein Tool wie IFTTT, deine YouTube-Videos automatisch auf verschiedenen sozialen Medien zu teilen."
+},
+  "what-are-chapters4": {
     "title": "Wie hilft YTChap.com der SEO meines Videos?",
-    "content": "YTChap verbessert die SEO, indem mehr Informationen hinzugefügt werden. Jeder Kapitel-Titel dient als Mini-Tag, der dem YouTube-Algorithmus hilft, den Inhalt deines Videos besser zu verstehen, was die Entdeckbarkeit erhöhen kann.\nExtra-Tipp: Um deine YouTube-SEO weiter zu verbessern, benutze professionelle SEO-Tools wie VidIQ, AnswerThePublic oder TubePilot, um relevante Schlüsselwörter zu finden und bestehende Beschreibungen, Titel und Tags zu optimieren."
-  },
+    "content": "YTChap verbessert die SEO, indem mehr Informationen hinzugefügt werden. Jeder Kapitel-Titel dient als Mini-Tag, der dem YouTube-Algorithmus hilft, den Inhalt deines Videos besser zu verstehen, was die Entdeckbarkeit erhöhen kann."
+  ,"tip-title": "Extra-Tipp",
+  "tip-content": "Um deine YouTube-SEO weiter zu verbessern, benutze professionelle SEO-Tools wie VidIQ, AnswerThePublic oder TubePilot, um relevante Schlüsselwörter zu finden und bestehende Beschreibungen, Titel und Tags zu optimieren."
+},
   "is-ytchap-free": {
     "title": "Ist YTChap.com kostenlos zu benutzen?",
     "content": "Ja, das ist es. YTChap glaubt daran, allen Erstellern gleiche Chancen zu bieten, weshalb alle Funktionen völlig kostenlos verfügbar sind. Es gibt keine versteckten Gebühren oder Premium-Stufen."
@@ -208,4 +212,11 @@
 },
 "final-words-title": "Fazit",
 "final-words-content": "Heutzutage reicht es möglicherweise nicht aus, normale Videos auf YouTube hochzuladen, um Aufmerksamkeit zu erregen und Reichweite zu gewinnen. Du musst alle Möglichkeiten ausprobieren, um die Benutzererfahrung zu verbessern. Und YTChap ist ein nützliches Tool dafür. Mit unserem Tool kannst du dein Video in verschiedene Segmente unterteilen, um eine einfache Navigation in deiner bevorzugten Sprache innerhalb von Sekunden zu ermöglichen. Und das auch noch kostenlos. Starte noch heute mit YTChap.com und erstelle Kapitel und Zeitstempel für dein Video – kostenlos!"
+,"cta-text": "Erstelle Kapitel & Zeitstempel für dein YouTube-Video mit YTChap!",
+  "cta-text-1": "Erstelle Kapitel für dein YouTube-Video kostenlos",
+  "cta-text-2": "Erstelle Kapitel mit YTChap",
+  "cta-text-3": "Fügen Sie Kapitel & Zeitstempel zu Ihrem YouTube-Video mit YTChap hinzu!",
+  "cta-text-4": "Mache dein Video besser mit YTChap!",
+  "cta-text-5": " Füge YouTube-Kapitel und Zeitstempel mit YTChap hinzu!",
+  "cta-button": "jetzt versuchen"
 }
