@@ -14,7 +14,6 @@ const LanguageSelection = () => {
     { title: 'Portuguese', link: 'pt' },
     { title: 'Italian', link: 'it' },
     { title: 'French', link: 'fr' },
-    { title: 'Arabic', link: 'ar' },
     { title: 'German', link: 'de' },
   ];
   // const [showLanguages, setShowLanguages] = useState(false);
