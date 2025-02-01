@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { Roboto, Jacques_Francois } from 'next/font/google';
 import './globals.css';
 import NavBar from '@/components/NavBar';
@@ -10,7 +11,20 @@ import TipBox from '@/components/TipBox';
 import CollapsibleFAQ from '@/components/CollapsibleFAQ';
 import { IconPaths } from '@/components/Icons';
 import FeatureCard from '@/components/FeatureCard';
+import { TbFreeRights } from "react-icons/tb";
 import StepCard from '@/components/StepCard';
+import SimpleSlider from '@/components/SimpleSlider';
+import { CiExport } from "react-icons/ci";
+import { FaYoutube, FaGraduationCap, FaChalkboardTeacher, FaBookReader, FaUniversity, FaUserGraduate } from 'react-icons/fa';
+import { MdSubtitles, MdOndemandVideo, MdOutlineSchool, MdTranslate, MdAccessibility, MdSpeed } from 'react-icons/md';
+import { CiUser } from "react-icons/ci";
+import { BiTimeFive, BiSearchAlt2 } from 'react-icons/bi';
+import { SiYoutubegaming } from 'react-icons/si';
+import { TbLanguage } from 'react-icons/tb';
+import { AiOutlineTranslation, AiFillExperiment } from 'react-icons/ai';
+import { IoShareSocialOutline } from 'react-icons/io5';
+import { BsBookmarkStar, BsKeyboard } from 'react-icons/bs';
+import { RiUserSearchLine } from 'react-icons/ri';
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -104,12 +118,6 @@ export default async function RootLayout({ children, params: { locale } }) {
               <p>{t('homepage:about-us-intro1')}</p>
               <p>{t('homepage:about-us-intro2')}</p>
             </div>
-            {/* First CTA after main content */}
-          <CTA 
-            text={t('homepage:cta-text-1')} 
-            buttonText={t('homepage:cta-button')}
-            className="mx-auto max-w-[800px]"
-          />
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:what-is-ytchap-title')}</h1>
               <p>{t('homepage:what-is-ytchap-p1')}</p>
@@ -127,29 +135,30 @@ export default async function RootLayout({ children, params: { locale } }) {
               <p>{t('homepage:features-intro')}</p>
               <div className="features-grid">
                 {featuresList.map((feature, indx) => {
-                  // Map features to icons
-                  const icons = ['automation', 'language', 'time', 'quality', 'accessibility', 'analytics'];
+                  const icons = [
+                    <MdSubtitles className="w-10 h-10" />, // For chapters/subtitles
+                    <TbFreeRights className="w-10 h-10" />, // For translation
+                    <BiTimeFive className="w-10 h-10" />, // For time navigation
+                    <FaYoutube className="w-10 h-10" />, // For YouTube integration
+                    <CiExport className="w-10 h-10" />, // For search functionality
+                    <BsBookmarkStar className="w-10 h-10" />, // For bookmarking
+                    <MdSpeed className="w-10 h-10" />, // For speed control
+                    <IoShareSocialOutline className="w-10 h-10" />, // For sharing
+                    <BsKeyboard className="w-10 h-10" /> // For keyboard shortcuts
+                  ];
                   return (
                     <FeatureCard
                       key={feature.title}
                       index={indx}
                       title={feature.title}
                       content={feature.content}
-                      iconPath={IconPaths[icons[indx % icons.length]]}
+                      iconPath={icons[indx % icons.length]}
                     />
                   );
                 })}
               </div>
             </div>
           </section>
-
-          {/* Third CTA after how-it-works */}
-          <CTA 
-            text={t('homepage:cta-text-3')} 
-            buttonText={t('homepage:cta-button')}
-            className="max-w-[800px]"
-          />
-
           <section
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
             id="how-it-works"
@@ -185,28 +194,20 @@ export default async function RootLayout({ children, params: { locale } }) {
                     index={indx}
                     title={feature.title}
                     content={feature.content}
-                    iconPath={IconPaths[['quality', 'analytics', 'automation', 'language'][indx % 4]]}
+                    iconPath={[
+                      <CiUser className="w-10 h-10" />, 
+                      <FaUserGraduate className="w-10 h-10" />,// For students
+                      <BiSearchAlt2 className="w-10 h-10" />, // For content creators
+                      <FaBookReader className="w-10 h-10" />, // For researchers
+                      <FaUniversity className="w-10 h-10" />, // For educational institutions
+                      <FaChalkboardTeacher className="w-10 h-10" /> // For academics
+                    ][indx % 6]}
                   />
                 ))}
               </div>
-              <CTA 
-                text={t('homepage:cta-text-5')} 
-                buttonText={t('homepage:cta-button')}
-                className="max-w-[800px]"
-              />
               <h1>{t('homepage:why-ytchap-title')}</h1>
               <p>{t('homepage:why-ytchap-intro')}</p>
-              <div className="features-grid">
-                {whyList.map((feature, indx) => (
-                  <FeatureCard
-                    key={feature.title}
-                    index={indx}
-                    title={feature.title}
-                    content={feature.content}
-                    iconPath={IconPaths[['time', 'accessibility', 'analytics', 'automation'][indx % 4]]}
-                  />
-                ))}
-              </div>
+              <SimpleSlider features={whyList} />
             </div>
           </section>
           

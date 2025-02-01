@@ -1,13 +1,17 @@
+'use client';
+
+import { BiTime } from 'react-icons/bi';
+import { FaUserFriends } from 'react-icons/fa';
+import { IoStatsChart } from 'react-icons/io5';
+import { RiSettings4Fill } from 'react-icons/ri';
+import { MdLanguage } from 'react-icons/md';
+import { TbStarsFilled } from 'react-icons/tb';
+
 export const IconPaths = {
-  automation: "M12 2L2 7L12 12L22 7L12 2Z M2 17L12 22L22 17 M2 12L12 17L22 12",
-  
-  language: "M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z M2 12H22 M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z",
-  
-  time: "M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z M12 6V12L16 14",
-  
-  quality: "M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z M8.21 13.89L7 23L12 20L17 23L15.79 13.88",
-  
-  accessibility: "M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z M12 8V16 M8 12H16",
-  
-  analytics: "M18 20V10 M12 20V4 M6 20V14"
+  time: <BiTime className="w-6 h-6" />,
+  accessibility: <FaUserFriends className="w-6 h-6" />,
+  analytics: <IoStatsChart className="w-6 h-6" />,
+  automation: <RiSettings4Fill className="w-6 h-6" />,
+  language: <MdLanguage className="w-6 h-6" />,
+  quality: <TbStarsFilled className="w-6 h-6" />
 };
