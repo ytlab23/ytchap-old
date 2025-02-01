@@ -25,6 +25,7 @@ import { AiOutlineTranslation, AiFillExperiment } from 'react-icons/ai';
 import { IoShareSocialOutline } from 'react-icons/io5';
 import { BsBookmarkStar, BsKeyboard } from 'react-icons/bs';
 import { RiUserSearchLine } from 'react-icons/ri';
+import TextWithLinks from '@/components/TextWithLinks';
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -120,8 +121,28 @@ export default async function RootLayout({ children, params: { locale } }) {
             </div>
             <div className="flex flex-col gap-y-4">
               <h1>{t('homepage:what-is-ytchap-title')}</h1>
-              <p>{t('homepage:what-is-ytchap-p1')}</p>
-              <p>{t('homepage:what-is-ytchap-p2')}</p>
+              {/* Utilisation avec les mots-clés par défaut */}
+              <p>
+                <TextWithLinks 
+                  text={t('homepage:what-is-ytchap-p1')} 
+                  keywords={{
+                    'YouTube': 'https://youtube.com',
+                  }}
+                />
+              </p>
+              
+              {/* Utilisation avec des mots-clés personnalisés */}
+              <p>
+                <TextWithLinks 
+                  text={t('homepage:what-is-ytchap-p2')} 
+                  keywords={{
+                    'YTChap.com': 'https://ytchap.com',
+                  }}
+                  className="text-purple-600 hover:text-blue-800 hover:underline"
+                />
+              </p>
+              
+              {/* Utilisation sans liens */}
               <p>{t('homepage:what-is-ytchap-p3')}</p>
             </div>
             {/* Second CTA after features */}
@@ -184,10 +205,10 @@ export default async function RootLayout({ children, params: { locale } }) {
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
             id="why-ytchap"
           >
-            <div className="flex flex-col gap-y-4">
+            <div className="flex flex-col gap-y-4 w-full">
               <h1>{t('homepage:who-should-use-title')}</h1>
               <p>{t('homepage:who-should-use-intro')}</p>
-              <div className="features-grid">
+              <div className="features-grid max-w-[1200px] mx-auto">
                 {whoShouldList.map((feature, indx) => (
                   <FeatureCard
                     key={feature.title}
@@ -226,6 +247,15 @@ export default async function RootLayout({ children, params: { locale } }) {
                     <TipBox 
                       title={t(`homepage:faqs.${key}.tip-title`)}
                       content={t(`homepage:faqs.${key}.tip-content`)}
+                      keywords={{
+                        'YouTube Ads': 'https://www.youtube.com/ads',
+                        'LenosTube': 'https://www.lenostube.com/en/',
+                        'Canva': 'https://www.canva.com',
+                        'IFTTT': 'https://ifttt.com/',
+                        'VidIQ': 'https://vidiq.com/',
+                        'AnswerThePublic': 'https://answerthepublic.com/',
+                        'TubePilot': 'https://tubepilot.ai/'
+                      }}
                     />
                   ) : null;
 
@@ -235,13 +265,31 @@ export default async function RootLayout({ children, params: { locale } }) {
                       index={indx}
                       title={faq.title}
                       content={faq.content}
+                      keywords={key === 'what-are-chapters' ? {
+                        'YouTube chapters': 'https://youtube.com',
+                        'capítulos de YouTube': 'https://youtube.com',
+                        'YouTube capítulos': 'https://youtube.com',
+
+                        'YouTube capitoli': 'https://youtube.com',
+
+                        'Les chapitres YouTube': 'https://youtube.com',
+                        'YouTube-Kapitel': 'https://youtube.com',
+                      } : null}
                       tipComponent={tipComponent}
                     />
                   );
                 })}
               </div>
               <h1>{t('homepage:final-words-title')}</h1>
-              <p>{t('homepage:final-words-content')}</p>
+              <p>
+              <TextWithLinks 
+                  text={t('homepage:final-words-content')} 
+                  keywords={{
+                    'YTChap': 'https://ytchap.com',
+                  }}
+                  className="text-purple-600 hover:text-blue-800 hover:underline"
+                />
+              </p>
               {/* Final CTA */}
               <CTA 
                 text={t('homepage:cta-text')} 

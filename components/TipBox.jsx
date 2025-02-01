@@ -1,6 +1,7 @@
 import React from 'react';
+import TextWithLinks from './TextWithLinks';
 
-const TipBox = ({ title, content }) => {
+const TipBox = ({ title, content, keywords }) => {
   return (
     <div className="mt-4 p-6 bg-gradient-to-r from-purple-900/10 to-violet-900/10 rounded-lg border border-purple-200/20">
       <div className="flex items-center gap-2 mb-3">
@@ -19,7 +20,7 @@ const TipBox = ({ title, content }) => {
         </svg>
         <span className="font-semibold text-purple-300">{title}</span>
       </div>
-      <p className="text-gray-300 ml-7">{content}</p>
+      <p className="text-gray-300 ml-7"><TextWithLinks text={content} keywords={keywords} className="text-purple-400 hover:text-purple-300 hover:underline" /></p>
     </div>
   );
 };

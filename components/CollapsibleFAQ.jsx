@@ -1,7 +1,8 @@
 'use client';
 import { useState } from 'react';
+import TextWithLinks from './TextWithLinks';
 
-const CollapsibleFAQ = ({ title, content, index, tipComponent }) => {
+const CollapsibleFAQ = ({ title, content, index, tipComponent, keywords }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -31,7 +32,7 @@ const CollapsibleFAQ = ({ title, content, index, tipComponent }) => {
         </svg>
       </button>
       <div className={`faq-content ${isOpen ? 'open' : ''}`}>
-        <p className="ml-8">{content}</p>
+        <p className="ml-8"><TextWithLinks text={content} keywords={keywords} /></p>
         {tipComponent && isOpen && tipComponent}
       </div>
     </div>
