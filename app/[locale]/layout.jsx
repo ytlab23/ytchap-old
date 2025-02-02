@@ -14,7 +14,12 @@ import FeatureCard from '@/components/FeatureCard';
 import { TbFreeRights } from "react-icons/tb";
 import StepCard from '@/components/StepCard';
 import SimpleSlider from '@/components/SimpleSlider';
+import { MdContentPasteGo } from "react-icons/md";
+import { BiBookContent } from "react-icons/bi";
+import { CiWarning } from "react-icons/ci";
+import { LuView } from "react-icons/lu";
 import { CiExport } from "react-icons/ci";
+import { AiOutlineProject } from "react-icons/ai";
 import { FaYoutube, FaGraduationCap, FaChalkboardTeacher, FaBookReader, FaUniversity, FaUserGraduate } from 'react-icons/fa';
 import { MdSubtitles, MdOndemandVideo, MdOutlineSchool, MdTranslate, MdAccessibility, MdSpeed } from 'react-icons/md';
 import { CiUser } from "react-icons/ci";
@@ -203,6 +208,39 @@ export default async function RootLayout({ children, params: { locale } }) {
 
           <section
             className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
+            id="benefits"
+          >
+            <div className="flex flex-col gap-y-4 w-full">
+              <h1>{t('homepage:benefits-title')}</h1>
+              <p>{t('homepage:benefits-intro')}</p>
+              <div className="features-grid max-w-[1200px] mx-auto">
+                {benefitsList.map((benefit, indx) => (
+                  <FeatureCard
+                    key={benefit.title}
+                    index={indx}
+                    title={benefit.title}
+                    content={benefit.content}
+                    iconPath={[
+                      <MdOndemandVideo className="w-10 h-10" />,
+                      <MdAccessibility className="w-10 h-10" />,
+                      <RiUserSearchLine className="w-10 h-10" />,
+                      <LuView className="w-10 h-10" />,
+                      <MdOutlineSchool className="w-10 h-10" />,
+                      <AiOutlineProject className="w-10 h-10" />,
+                      <AiFillExperiment className="w-10 h-10" />,
+                      <CiWarning className="w-10 h-10" />,
+                      <BiBookContent className="w-10 h-10" />,
+                      <MdContentPasteGo className="w-10 h-10" />,
+                      <FaBookReader className="w-10 h-10" />
+                    ][indx % 11]}
+                  />
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section
+            className="px-4 w-full flex flex-col items-center gap-y-6 max-w-[800px]"
             id="why-ytchap"
           >
             <div className="flex flex-col gap-y-4 w-full">
@@ -266,14 +304,14 @@ export default async function RootLayout({ children, params: { locale } }) {
                       title={faq.title}
                       content={faq.content}
                       keywords={key === 'what-are-chapters' ? {
-                        'YouTube chapters': 'https://youtube.com',
-                        'capítulos de YouTube': 'https://youtube.com',
-                        'YouTube capítulos': 'https://youtube.com',
+                        'YouTube chapters': 'https://support.google.com/youtube/answer/9884579',
+                        'capítulos de YouTube': 'https://support.google.com/youtube/answer/9884579',
+                        'YouTube capítulos': 'https://support.google.com/youtube/answer/9884579',
 
-                        'YouTube capitoli': 'https://youtube.com',
+                        'YouTube capitoli': 'https://support.google.com/youtube/answer/9884579',
 
-                        'Les chapitres YouTube': 'https://youtube.com',
-                        'YouTube-Kapitel': 'https://youtube.com',
+                        'Les chapitres YouTube': 'https://support.google.com/youtube/answer/9884579',
+                        'YouTube-Kapitel': 'https://support.google.com/youtube/answer/9884579',
                       } : null}
                       tipComponent={tipComponent}
                     />
