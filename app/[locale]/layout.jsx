@@ -31,6 +31,8 @@ import { IoShareSocialOutline } from 'react-icons/io5';
 import { BsBookmarkStar, BsKeyboard } from 'react-icons/bs';
 import { RiUserSearchLine } from 'react-icons/ri';
 import TextWithLinks from '@/components/TextWithLinks';
+import BackToTop from '@/components/BackToTop';
+import Footer from '@/components/Footer';
 
 export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
@@ -336,7 +338,9 @@ export default async function RootLayout({ children, params: { locale } }) {
               />
             </div>
           </section>
+          <Footer />
         </div>
+        <BackToTop />
       </body>
     </html>
   );
