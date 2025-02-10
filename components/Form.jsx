@@ -132,7 +132,7 @@ const Form = ({ locale }) => {
               setVidId(videoIdSimple);
               
               try {
-                const response = await fetch('http://localhost:3001/api/summary', {
+                const response = await fetch('https://ytaichapters.onrender.com/api/summary', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json',
