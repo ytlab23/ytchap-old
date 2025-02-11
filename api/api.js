@@ -1,23 +1,22 @@
-import jsdom from "jsdom";
+const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-import xml2js from "xml2js";
-import { HttpsProxyAgent } from "https-proxy-agent";
-import axios from "axios";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+
+const xml2js = require("xml2js");
+const { HttpsProxyAgent } = require("https-proxy-agent");
+const axios = require("axios");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const API_KEY_1 = process.env.GEMINI_API_KEY_1;
 const API_KEY_2 = process.env.GEMINI_API_KEY_2;
 const API_KEY_3 = process.env.GEMINI_API_KEY_3;
 const API_KEY_4 = process.env.GEMINI_API_KEY_4;
-const API_KEY_5 = process.env.GEMINI_API_KEY_5;
 const API_KEY_6 = process.env.GEMINI_API_KEY_6;
 
 // request time delyer function
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 // get data
-export const get_data_axios = async (url) => {
-  "use server";
+const get_data_axios = async (url) => {
   try {
     // making a delay before a request
     await delay(3000);
@@ -37,7 +36,7 @@ export const get_data_axios = async (url) => {
   }
 };
 
-export const geminiResponseHandler = async (
+const geminiResponseHandler = async (
   subSubtitle,
   generateType,
   chapterType,
@@ -48,7 +47,6 @@ export const geminiResponseHandler = async (
     API_KEY_2,
     API_KEY_3,
     API_KEY_4,
-    API_KEY_5,
     API_KEY_6,
   ];
   const API_KEY = API_KEYS[Math.floor(Math.random() * API_KEYS.length)];
@@ -104,9 +102,7 @@ Return the response in the following format:
 };
 
 // generate chapters from gpt
-export const generateSummary = async (subtitles, chapterType, sumLang) => {
-  "use server";
-  // subtitles.map((sub) => console.log(sub.length));
+const generateSummary = async (subtitles, chapterType, sumLang) => {
   try {
     let gptResponses = { chapters: [], summery: "" };
     for (let sub of subtitles) {
@@ -143,8 +139,7 @@ export const generateSummary = async (subtitles, chapterType, sumLang) => {
 };
 
 // fetch transcript from youtube
-export const fetchTranscript = async (url) => {
-  "use server";
+const fetchTranscript = async (url) => {
   try {
     const isValidYouTubeUrl = (url) => {
       const pattern = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.?be)\/.+$/;
@@ -237,14 +232,16 @@ export const fetchTranscript = async (url) => {
 };
 
 //get summery
-export const getSummery = async (url, chapterType, sumLang) => {
-  "use server";
+const getSummery = async (url, chapterType, sumLang) => {
   try {
     const transcript = await fetchTranscript(url);
     const summary = await generateSummary(transcript, chapterType, sumLang);
     return summary;
   } catch (error) {
     console.log("getSummery error -->", error.message);
-    return error.message;
+    throw error;
   }
 };
+
+
+module.exports = { getSummery };

@@ -9,12 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.12.0",
-    "axios": "^1.7.2",
-    "https-proxy-agent": "^7.0.4",
+    "framer-motion": "^12.0.6",
     "i18next": "^23.11.5",
     "i18next-resources-to-backend": "^1.2.1",
-    "jsdom": "^24.1.0",
     "next": "^14.2.4",
     "next-i18n-router": "^5.5.0",
     "next-intl": "^3.15.0",
@@ -23,11 +20,10 @@
     "react-dom": "^18",
     "react-i18next": "^14.1.2",
     "react-icons": "^5.2.1",
-    "react-select": "^5.8.0",
-    "xml2js": "^0.6.2"
+    "react-select": "^5.8.0"
   },
   "devDependencies": {
-    "eslint": "^8",
+    "eslint": "^8.57.1",
     "eslint-config-next": "14.2.3",
     "i18nexus-cli": "^3.4.0",
     "postcss": "^8",

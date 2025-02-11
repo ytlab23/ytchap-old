@@ -1,5 +1,4 @@
 import Form from '@/components/Form';
-import { getSummery } from '../../api/api';
 import Header from '@/components/Header';
 import TranslationsProvider from '@/components/TranslationsProvider';
 import initTranslations from '../i18n';
@@ -16,7 +15,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         resources={resources}
       >
-        <Form getSummery={getSummery} locale={locale} />
+        <Form locale={locale} />
       </TranslationsProvider>
     </main>
   );

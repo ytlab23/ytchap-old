@@ -5,7 +5,7 @@ import CopyHandler from './CopyHandler';
 import Video from '../components/Video';
 import { useTranslation } from 'react-i18next';
 
-const Form = ({ getSummery }) => {
+const Form = ({ locale }) => {
   const { t: tForm } = useTranslation();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -45,6 +45,45 @@ const Form = ({ getSummery }) => {
   const languageHandler = (option) => {
     setLanguage(option.value);
   };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:3001/api/summary', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+          url: url, 
+          chapterType: chapterType, 
+          sumLang: language 
+        }),
+      });
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error);
+      }
+
+      const data = await response.json();
+      if (typeof data !== 'string') {
+        setLoading(false);
+        setError(false);
+        setDesc(data.summery);
+        setData(data.chapters);
+      } else {
+        setLoading(false);
+        setError(true);
+        setErrorText(data);
+      }
+    } catch (error) {
+      setLoading(false);
+      setError(true);
+      setErrorText('An error occurred');
+    }
+  };
+
   return (
     <div className="w-full flex flex-col items-center gap-y-6">
       <div className="flex flex-col gap-y-8 justify-center items-center gap-x-2">
@@ -91,16 +130,40 @@ const Form = ({ getSummery }) => {
               setLoading(true);
               const videoIdSimple = extractVideoIdSimple(url);
               setVidId(videoIdSimple);
-              let data = await getSummery(url.trim(), chapterType, language);
-              if (typeof data !== 'string') {
-                setLoading(false);
-                setError(false);
-                setDesc(data.summery);
-                setData(data.chapters);
-              } else {
+              
+              try {
+                const response = await fetch('https://ytaichapters.onrender.com/api/summary', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ 
+                    url: url.trim(), 
+                    chapterType: chapterType, 
+                    sumLang: language 
+                  }),
+                });
+
+                if (!response.ok) {
+                  const error = await response.json();
+                  throw new Error(error.error);
+                }
+
+                const data = await response.json();
+                if (typeof data !== 'string') {
+                  setLoading(false);
+                  setError(false);
+                  setDesc(data.summery);
+                  setData(data.chapters);
+                } else {
+                  setLoading(false);
+                  setError(true);
+                  setErrorText(data);
+                }
+              } catch (error) {
                 setLoading(false);
                 setError(true);
-                setErrorText(data);
+                setErrorText(error.message || 'An error occurred');
               }
             } else {
               setError(true);

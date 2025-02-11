@@ -1,1 +1,219 @@
-{"header-title":"GÉNÉRATEUR DE CHAPITRES YOUTUBE AI"}
+{"header-title":"GÉNÉRATEUR DE CHAPITRES YOUTUBE AI",
+  "about-us-title": "À propos de YTChap",
+"about-us-intro1": "Vous savez qu'en tant que créateur de contenu, il est important pour vous de garder votre public intéressé et de lui faciliter la tâche pour qu'il puisse visionner les parties de vos vidéos YouTube qui l'attirent le plus. YTChap.com rend ce processus simple.",
+"about-us-intro2": "Oui, YTChap rend assez simple l'ajout de chapitres dans les boîtes d'informations de vos vidéos sur YouTube, les commentaires statiques ou les publications sur les réseaux sociaux. Voyons quelles opportunités YTChap offre et comment cela peut vous aider à obtenir de meilleurs résultats.",
+
+
+"what-is-ytchap-title": "Qu'est-ce que YTChap ?",
+"what-is-ytchap-p1": "YTChap est une plateforme en ligne exclusive qui améliore la navigation et les capacités de visionnage des vidéos, en particulier celles sur des sites comme YouTube. Les créateurs peuvent diviser leurs vidéos en chapitres à l'aide de cet outil, permettant ainsi aux spectateurs d'accéder plus facilement à certaines parties du contenu en fonction de leurs préférences. Et le meilleur dans tout ça, c'est que vous pouvez l'utiliser gratuitement à 100 %.",
+"what-is-ytchap-p2": "Les fonctionnalités de base de YTChap.com incluent une interface claire où les créateurs YouTube peuvent créer des chapitres et des horodatages pour leurs vidéos, facilement. Ceux-ci sont accompagnés d'horodatages liés à chaque chapitre, permettant aux spectateurs de cliquer rapidement et de passer directement à la portion souhaitée.",
+"what-is-ytchap-p3": "Cette fonction est particulièrement utile pour les vidéos plus longues ou celles qui couvrent un large éventail de sujets, où les spectateurs peuvent vouloir sauter directement à un contenu spécifique. En structurant le contenu en chapitres, les créateurs de contenu comme vous peuvent augmenter l'engagement du public, le temps de visionnage et l'expérience utilisateur globale. En résumé, boostez leur SEO YouTube et leurs vues !",
+
+
+"features-main-title": "9 Fonctionnalités principales de YTChap",
+"features-intro": "YTChap.com propose de nombreuses fonctionnalités uniques pour se démarquer de ses concurrents. Voici quelques-unes d'entre elles :",
+"features": {
+  "easy-chapter-creation": {
+    "title": "Création de chapitres facile",
+    "content": "YTChap dispose d'une interface facile à utiliser qui vous permet de créer rapidement des chapitres (avec des horodatages) pour vos vidéos. En quelques clics, vous pouvez diviser vos vidéos en sections facilement digestibles."
+  },
+  "free-to-use": {
+    "title": "Gratuit à utiliser",
+    "content": "YTChap.com est totalement gratuit à utiliser. Cela signifie que tout le monde peut l'utiliser pour créer des chapitres sans aucune complication."
+  },
+  "customizable-chapter-titles": {
+    "title": "Titres de chapitres personnalisables",
+    "content": "Personnalisez vos titres de chapitres pour refléter avec précision le contenu qu'ils représentent. Cette personnalisation garantit que votre audience comprend exactement ce à quoi elle peut s'attendre de chaque partie de votre vidéo."
+  },
+  "timestamp-integration": {
+    "title": "Intégration des horodatages",
+    "content": "Incorporez facilement des horodatages dans vos chapitres. Cette fonctionnalité permet aux spectateurs de se rendre directement à la section de la vidéo qui les intéresse, améliorant ainsi l'expérience utilisateur et l'engagement."
+  },
+  "export-options": {
+    "title": "Options d'exportation",
+    "content": "Exportez vos données de chapitre sous différents formats pour une intégration facile dans les descriptions YouTube, les commentaires fixes et le partage sur les réseaux sociaux. Vous pouvez copier tous les chapitres générés en un seul clic."
+  },
+  "multilingual-support": {
+    "title": "Support multilingue",
+    "content": "Créez des chapitres en plusieurs langues comme l'anglais, l'espagnol, le français, l'italien, le néerlandais, le portugais, etc. pour atteindre un public mondial. YTChap prend en charge plusieurs langues, garantissant qu'aucun spectateur n'est laissé de côté. Vous pouvez ensuite traduire votre vidéo dans plusieurs langues depuis le studio YouTube et coller les chapitres appropriés dans différentes langues."
+  },
+  "User-Friendly Interface": {
+    "title": "Interface conviviale",
+    "content": "Lorsque vous choisissez un outil en ligne, vous devez toujours garder à l'esprit la facilité d'utilisation. YTChap.com est simple à naviguer et à utiliser, quel que soit votre niveau de connaissance technique. Et il est totalement réactif sur tous les appareils ou navigateurs web."
+  },
+  "Unlimited Usage": {
+    "title": "Utilisation illimitée",
+    "content": "Marre d'attendre que les quotas de restriction quotidiens se remplissent ? Eh bien, un autre point fort de YTChap.com est que vous pouvez l'utiliser autant que vous le souhaitez, sans aucune restriction."
+  },
+  "Highly accurate": {
+    "title": "Haute précision",
+    "content": "Le contenu des chapitres donnés (et les horodatages associés) sont précis. C'est parce que les développeurs derrière YTChap ont travaillé dur pour affiner l'IA afin qu'elle soit aussi précise que possible."
+  }
+  },
+  "how-to-title": "Comment Ajouter des Chapitres à une Vidéo YouTube en Utilisant YTChap ?",
+"how-to-intro": "Comme mentionné précédemment, vous pouvez ajouter des chapitres aux vidéos YouTube en utilisant YTChap facilement. Tout ce dont vous avez besoin est le lien vers la vidéo pour laquelle vous souhaitez créer les chapitres et les horodatages. Voici les étapes :",
+"how-to-steps": [
+  "Visitez le site web de YTChap.com.",
+  "Déposez le lien de la vidéo pour laquelle vous souhaitez créer des chapitres. YTChap prend en charge une variété de formats vidéo pour votre confort.",
+  "Choisissez la langue du chapitre dans la liste. Actuellement, l'outil propose six options : Anglais, Espagnol, Français, Italien, Allemand, Arabe et Portugais.",
+  "Cliquez sur « Générer des sous-titres » et laissez notre IA faire le travail.",
+  "Si vous le souhaitez, personnalisez les titres des chapitres et vérifiez la segmentation.",
+  "Exportez les chapitres dans le format de votre choix, par exemple, en copiant le contenu d'un simple clic.",
+  "Intégrez les chapitres dans la description de votre vidéo YouTube ou épinglez-les en tant que commentaire.",
+  "Partagez les liens des chapitres sur les réseaux sociaux pour diriger vos spectateurs vers certaines sections de votre vidéo, et créez des publications sur les réseaux sociaux concernant différents sujets."
+],
+"benefits-title": "11 Avantages de la Création de Chapitres YouTube avec YTChap",
+"benefits-intro": "Vous vous demandez peut-être pourquoi passer par ces étapes supplémentaires, alors que nous pouvons simplement télécharger une vidéo sur YouTube, sans ajouter de chapitres et de timestamps. Alors, est-ce que ça en vaut la peine ? Un outil comme YTChap.com est utile en raison de la large gamme d'avantages qu'il offre. Voici certains d'entre eux :"
+,"benefits": {
+  "viewer-engagement": {
+    "title": "Meilleur engagement des spectateurs",
+    "content": "Les chapitres améliorent l'engagement de vos vidéos en facilitant la recherche et l'accès aux parties qui intéressent le plus les spectateurs. Cette implication renforcée peut entraîner des durées de visionnage plus longues et une meilleure rétention de l’audience."
+  },
+  "user-experience": {
+    "title": "Expérience utilisateur améliorée",
+    "content": "En structurant clairement votre vidéo, vous pouvez améliorer l'ensemble de l'expérience utilisateur. Les spectateurs peuvent facilement faire défiler votre contenu, ce qui est très utile pour les vidéos YouTube longues."
+  },
+  "Increase in SEO": {
+    "title": "Augmentation du SEO",
+    "content": "L’utilisation des chapitres et des timestamps peut aider le SEO de votre vidéo. Les moteurs de recherche comme Google affichent fréquemment des moments clés des vidéos directement dans les résultats de recherche, améliorant ainsi la probabilité d'attirer plus de spectateurs. Les titres des chapitres agissent comme de petites étiquettes qui livrent plus de métadonnées et aident à améliorer le classement de votre vidéo dans les résultats de recherche, facilitant sa découverte."
+  },
+  "Higher Viewer Retention": {
+    "title": "Meilleure rétention des spectateurs",
+    "content": "Lorsque les spectateurs peuvent facilement trouver les informations dont ils ont besoin, ils sont plus enclins à rester plus longtemps sur votre vidéo, réduisant ainsi le taux de rebond et améliorant la rétention des spectateurs."
+  },
+  "Professional presentation": {
+    "title": "Présentation professionnelle",
+    "content": "Les chapitres donnent à vos vidéos un aspect et une sensation professionnels. Ce niveau supplémentaire d'organisation peut vous aider à établir votre crédibilité et votre autorité en tant que créateur de contenu. Utiliser des chapitres dans une vidéo montre une attention aux détails et du professionnalisme !"
+  },
+  "Efficient content consumption": {
+    "title": "Consommation efficace du contenu",
+    "content": "Les chapitres permettent aux spectateurs de parcourir rapidement les sections pertinentes des vidéos éducatives ou tutoriels, qui peuvent être facilement revisitées, augmentant ainsi l'utilité et la valeur de votre contenu en tant que référence."
+  },
+  "Real-Time Analysis": {
+    "title": "Analyse en temps réel",
+    "content": "Grâce à notre outil, vous pouvez comprendre quelles sections de votre vidéo sont les plus populaires afin de créer du contenu futur en fonction de ce que les gens veulent. Cela est possible en croisant les données de YouTube Studio avec les informations des chapitres."
+  },
+  "Increased Attention Span": {
+    "title": "Augmentation de la durée d’attention",
+    "content": "Les spectateurs sont plus enclins à regarder toute la vidéo ou à rester plus longtemps sur votre chaîne lorsqu'ils peuvent facilement identifier les parties qui les intéressent."
+  },
+  "Better organization of content": {
+    "title": "Meilleure organisation du contenu",
+    "content": "Lorsque vous divisez votre contenu en chapitres, les gens peuvent mieux comprendre et suivre ce que vous dites. La vidéo sera plus organisée."
+  },
+  "Accessibility": {
+    "title": "Accessibilité",
+    "content": "Les chapitres peuvent être utilisés comme un moyen pour que les spectateurs ayant des handicaps tels que des troubles visuels ou cognitifs puissent naviguer à travers la vidéo."
+  },
+  "Content Repurposing": {
+    "title": "Réutilisation du contenu",
+    "content": "De plus, les chapitres servent de lignes directrices pour le recyclage du contenu dans différents formats comme des articles de blog, des YouTube Shorts et des publications sur les réseaux sociaux."
+  }
+},
+"who-should-use-title": "Qui devrait utiliser YTChap ?",
+"who-should-use-intro": "YTChap.com n'est pas un outil réservé uniquement aux créateurs de contenu créatif. Toute personne impliquée dans le partage d'idées à travers des vidéos peut utiliser notre outil. Voici quelques secteurs spécifiques qui pourraient trouver notre outil le plus utile :"
+,"who-should-use": {
+  "youtube-creators": {
+    "title": "Créateurs YouTube",
+    "content": "Peu importe si vous êtes un vlogger, un joueur ou un éducateur, YTChap peut vous aider à augmenter l'engagement et la rétention des spectateurs en rendant vos vidéos plus faciles à naviguer."
+  },
+  "educational-channels": {
+    "title": "Chaînes éducatives",
+    "content": "YTChap est un moyen facile pour les étudiants et les spectateurs de trouver et de revenir à des points particuliers dans leurs tutoriels YouTube, séminaires ou vidéos explicatives."
+  },
+  "product-reviewers": {
+    "title": "Critiques de produits",
+    "content": "YTChap peut être utilisé par les critiqueurs pour diviser leurs vidéos en sections telles que unboxing, caractéristiques, avantages et inconvénients et verdict final, rendant facile pour le spectateur d'obtenir les informations qu'il/elle souhaite."
+  },
+  "webinar-hosts": {
+    "title": "Hôtes de webinaires",
+    "content": "Notre outil aide les auditeurs à naviguer à travers différents sujets ou intervenants dans de longs webinaires ou diffusions en direct, améliorant ainsi l'expérience de visionnage globale."
+  },
+  "corporate-trainers": {
+    "title": "Formateur en entreprise",
+    "content": "Les vidéos de formation en entreprise peuvent être longues et compliquées. Mais les formateurs peuvent utiliser YTChap.com pour que les employés puissent apprendre à partir de clips plus courts conçus autour de sujets spécifiques."
+  },
+  "podcasters-and-interviewers": {
+    "title": "Podcasteur et Intervieweur",
+    "content": "Les podcasts et les vidéos d'interviews peuvent décomposer des sujets distincts avec des chapitres qui permettent aux spectateurs de sauter directement dans les zones qui les interesse le plus."
+  }
+},
+"why-ytchap-title": "Alors, pourquoi utiliser YTChap ?",
+"why-ytchap-intro": "YTChap.com émerge comme l'outil principal pour créer et ajouter des chapitres aux vidéos pour de nombreuses raisons. Voyons ce qui distingue YTChap lors de la création de chapitres, et pourquoi il se démarque dans le monde des outils d'amélioration de vidéos."
+,"why-ytchap": {
+    "Fait pour les créateurs YouTube": {
+  "title": "Fait pour les créateurs YouTube",
+  "content": "YTChap est conçu pour les créateurs YouTube. Il le fait en fournissant des chapitres YouTube et des horodatages prêts au format YouTube."
+},
+"Permet le contrôle des spectateurs": {
+  "title": "Permet le contrôle des spectateurs",
+  "content": "YTChap.com est unique en ce sens qu'il donne aux spectateurs le contrôle sur leur expérience de visionnage, contrairement aux formats vidéo linéaires typiques. La capacité de naviguer directement vers les zones clés permet aux spectateurs d'interagir plus profondément avec les informations et de trouver de la valeur plus efficacement."
+},
+"Améliore la découvrabilité": {
+  "title": "Améliore la découvrabilité",
+  "content": "En utilisant les chapitres générés par YTChap, vous fournissez aux algorithmes de YouTube des métadonnées supplémentaires, et les vidéos peuvent être recommandées plus souvent et exposées à un public plus large. Pas seulement sur YouTube, mais aussi sur des moteurs de recherche comme Google."
+},
+"Intégration multifacette": {
+  "title": "Intégration multifacette",
+  "content": "Cela permet aux utilisateurs de YTChap.com d'intégrer des chapitres dans divers aspects de leur stratégie de contenu, et pas seulement dans la description de la vidéo. Vous pouvez utiliser les chapitres générés comme commentaires épinglés et publications sur les réseaux sociaux. Les informations des chapitres peuvent également être utilisées pour générer des Shorts YouTube ou d'autres types de contenus courts."
+},
+"Portée internationale": {
+  "title": "Portée internationale",
+  "content": "De nombreuses langues sont supportées par YTChap, permettant aux créateurs YouTube de se connecter avec différents publics mondiaux."
+},
+"Mises à jour régulières": {
+  "title": "Mises à jour régulières",
+  "content": "YTChap n'est pas un produit fini. À mesure que YouTube évolue, et grâce aux retours des utilisateurs, nous travaillons régulièrement à améliorer la précision et la qualité des chapitres. Des mises à jour sont publiées régulièrement."
+}
+  },
+  "faqs-title": "Questions fréquemment posées (FAQ)",
+"faqs-intro": "YTChap.com n'est pas seulement un outil pour les créateurs de contenu créatifs. Toute personne impliquée dans le partage d'idées par vidéo peut utiliser notre outil. Voici quelques groupes spécifiques qui pourraient trouver notre outil plus utile :",
+"faqs": {
+  "what-are-chapters": {
+    "title": "Qu'est-ce que les chapitres YouTube ?",
+    "content": "Les chapitres YouTube sont une fonctionnalité qui permet aux créateurs de contenu de diviser leurs vidéos en différentes parties à l'aide de repères horaires individuels. Ainsi, les spectateurs peuvent sauter directement aux parties qui les intéressent sans perdre de temps. Ils sont générés automatiquement en fonction des repères horaires dans la description."
+  },
+  "what-are-timestamps": {
+    "title": "Qu'est-ce que les repères horaires YouTube ?",
+    "content": "Les repères horaires YouTube sont un sommaire pour votre vidéo YouTube, afin de faciliter la recherche des parties spécifiques de la vidéo par les utilisateurs. Ils sont principalement utilisés dans les vidéos longues pour améliorer l'expérience utilisateur. En plus des repères horaires générés automatiquement par l'IA de YouTube, les créateurs de contenu peuvent également les ajouter manuellement. Les repères horaires YouTube suivent le format minute:seconde, c'est-à-dire 00:25 ou 1:44."
+  },
+  "how-to-create-chapters": {
+    "title": "Comment créer des chapitres pour des vidéos YouTube avec YTChap ?",
+    "content": "Vous pouvez créer des chapitres sur YouTube avec YTChap de manière simple. Il suffit de coller le lien de la vidéo, de choisir la langue et le mode, d'ajouter les repères horaires et les titres, puis d'exporter les chapitres pour les utiliser dans la description de votre vidéo, les commentaires ou les publications sur les réseaux sociaux."
+  },
+  "are-timestamps-accurate": {
+    "title": "Les repères horaires générés par YTChap sont-ils précis ?",
+    "content": "Oui, bien sûr. Une fois que vous collez le lien de la vidéo, notre système comprend son contexte et génère un repère horaire pertinent pour attirer davantage de spectateurs vers votre contenu. L'IA a été testée et affinée pour fournir les résultats les plus précis. Et le meilleur, c'est que tout le processus prend seulement quelques secondes."
+  },
+  "how-to-add-chapters": {
+    "title": "Comment ajouter des chapitres aux vidéos YouTube ?",
+    "content": "Tout d'abord, connectez-vous à votre compte YouTube. Ensuite, allez dans la section description de la vidéo à laquelle vous souhaitez ajouter des chapitres, puis écrivez ou collez vos chapitres (avec les repères horaires). Assurez-vous que le premier repère horaire commence à 00:00 et que la description comporte au moins 3 repères horaires. Bonne nouvelle, les chapitres générés par YTChap sont déjà au format requis."
+  },
+  "what-are-timestamps3": {
+    "title": "Les chapitres YouTube augmentent-ils les vues ?",
+    "content": "Oui, absolument. Voici comment les chapitres YouTube peuvent vous aider à augmenter le nombre de vues : Ils aident à améliorer le positionnement d'une vidéo dans les moteurs de recherche en fournissant un contexte et des mots-clés supplémentaires, fournissent une structure claire pour la vidéo, ce qui peut améliorer l'expérience utilisateur et les inciter à partager votre contenu, les créateurs peuvent attirer plus de trafic des moteurs de recherche en affinant les mots-clés pertinents dans la section des chapitres YouTube.",
+    "tip-title": "Conseil Supplémentaire",
+    "tip-content": "Pour augmenter davantage vos vues YouTube, envisagez d'utiliser la publicité organique via des plateformes comme YouTube Ads ou LenosTube. De plus, améliorez l'attrait de votre vidéo en créant des miniatures attrayantes à l'aide d'outils de conception conviviaux comme Canva. Enfin, l'utilisation d'un outil comme IFTTT vous permet de partager automatiquement vos vidéos YouTube sur différentes plateformes de médias sociaux."
+  },
+  "what-are-chapters4": {
+    "title": "Comment YTChap.com aide-t-il le référencement de ma vidéo ?",
+    "content": "YTChap améliore le référencement en ajoutant plus d'informations. Chaque titre de chapitre sert de mini-tag, aidant l'algorithme de YouTube à mieux comprendre le contenu de votre vidéo, augmentant potentiellement sa découvrabilité.",
+    "tip-title": "Conseil Supplémentaire",
+    "tip-content": "Pour améliorer davantage votre référencement YouTube, utilisez des outils SEO professionnels comme VidIQ, AnswerThePublic ou TubePilot pour trouver des mots-clés pertinents et optimiser la description, les titres et les tags existants."
+  },
+  "what-are-timestamps4": {
+    "title": "YTChap.com est-il gratuit ?",
+    "content": "Oui, il l'est. YTChap croit en l'égalité des chances pour tous les créateurs, c'est pourquoi toutes ses fonctionnalités sont entièrement gratuites. Il n'y a pas de frais cachés ni de niveaux premium."
+  },
+  "what-are-chapters5": {
+    "title": "Puis-je changer les chapitres après avoir publié ma vidéo ?",
+    "content": "Oui, vous pouvez mettre à jour les chapitres à tout moment. Il vous suffit de modifier la description de votre vidéo ou les commentaires pour inclure les nouveaux horodatages et titres, et YouTube mettra à jour les chapitres en conséquence."
+  }
+},
+"final-words-title": "Conclusion",
+"final-words-content": "De nos jours, mettre des vidéos normales sur YouTube peut ne pas être suffisant pour capturer l'attention et atteindre un large public. Vous devez essayer toutes les façons d'améliorer l'expérience utilisateur. Et, YTChap est un outil utile pour cela. Avec notre outil, vous pouvez classer votre vidéo en différents segments pour une navigation facile dans votre langue préférée en quelques secondes. Et, cela, gratuitement. Commencez avec YTchap.com aujourd'hui, et générez des chapitres et des horodatages pour votre vidéo, gratuitement !",
+"cta-text": "Générez des chapitres et des horodatages pour votre vidéo YouTube avec YTChap !",
+"cta-text-2": "Créez des chapitres avec YTChap",
+"cta-text-4": "Améliorez votre vidéo avec YTChap !",
+"cta-button": "Essayer maintenant"
+}

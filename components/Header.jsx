@@ -1,5 +1,4 @@
 import React from 'react';
-
 import initTranslations from '@/app/i18n';
 
 const Header = async ({ locale }) => {
